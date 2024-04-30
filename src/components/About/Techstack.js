@@ -10,59 +10,91 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
+import { FaCaretRight } from "react-icons/fa";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
   SiSolidity,
-  SiPostgresql,
+  SiNestjs,
+  SiPhp,
+  SiSpring,
+  SiMysql,
+  SiOracle,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiReact,
+  SiVuedotjs,
+  SiNuxtdotjs,
+  SiJavascript,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiVuedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiNuxtdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiJavascript />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiOracle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCaretRight />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
       </Col>
     </Row>
   );
